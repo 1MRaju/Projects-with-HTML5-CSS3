@@ -1,0 +1,494 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Fira Sans', sans-serif;
+     font-family: 'Roboto', sans-serif;
+}
+.hamburger{
+    display: none;
+}
+.section1{
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(224, 90, 224);
+}
+.logo{
+    margin: 0px 20px;
+    padding-top: 10px;
+}
+#navlist{
+    /* display: block; */
+    text-align: right;
+    margin-top: -30px;
+}
+#navlist li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 2px 30px;
+}
+#navlist li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.mid-content{
+    height: 25vh;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15vh;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    /* line-height: 5vh; */
+}
+.mid-content p{
+    font-size: 28px;
+    margin: 10px;
+}
+.mid-content button{
+    font-size: 18px;
+    margin: 10px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* ---------------------section1-----ends here----------- */
+
+.section2{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(15, 238, 164);
+}
+.top-content{
+     height: 20vh;
+     /* border: 1px solid red; */
+     padding: 20px;
+     text-align: center;
+}
+hr{
+    width: 18%;
+    display: block;
+    margin: 1px auto;
+}
+.top-content h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+.top-content p{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+.list{
+    margin-top: 5vh;
+}
+.list li{
+    display: inline-block;
+    width: 20%;
+    list-style: none;
+    margin: 10px 20px;
+    color: white;
+}
+.list li span{
+    margin-top: 10px;
+}
+/* ---------------------section2-----ends here----------- */
+
+
+.section3{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(236, 228, 228, 0.918);
+}
+.section3 .list img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.top-content h2, .top-content p, .list li{
+    color: black;
+}
+.list li h4{
+   color: rgb(28, 167, 167);
+}
+/* ---------------------section3-----ends here----------- */
+
+
+.section4{
+    width: 100%;
+    height: 60vh;
+}
+.section4 .list li{
+    text-align: center;
+}
+.section4 .list img{
+    height: 150px;
+    width: 150px;
+    margin: -80px 20px 10px 0px;
+}
+.section4 .list li h1{
+    font-size: 35px;
+    margin-right: 13px;
+    margin-top: 20px;
+    display: inline-block;
+}
+/* -----------------section4-----ends here----------- */
+
+
+.section5{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(240, 224, 168);
+}
+
+#greenlist{
+    display: block;
+}
+#greenlist li{
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: rgb(84, 215, 172);
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.section5 .list img{
+    width: 250px;
+    margin-right: 0;
+}
+.section5 .list h3{
+    width: 250px;
+    margin-right: 0;
+}
+.section5 button{
+    background-color: rgb(84, 215, 172);
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+/* ----------------section5-----ends here----------- */
+
+
+.section6{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(230, 40, 167, 0.918);  
+}
+.section6 .top-content h2, .section6 .top-content p{
+    color: white;
+}
+.section6 .list img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.section6 .list li span{
+    width: 300px;
+    padding-top: 20px;
+}
+.section6 .list li{
+    text-align: center;
+    /* height: 55vh; */
+    padding-top: 20px;
+    color: white;
+}
+.section6 .list li h3{
+    margin-top: 30px;
+}
+ .section6 .top-content .list li h4{
+    margin-top: 10px;
+    color: rgb(222, 186, 23);
+ }
+/* -----------------section6-----ends here----------- */
+ 
+.section7{
+    width: 100%;
+    height: 82vh;
+    background-color: rgba(86, 106, 235, 0.918);  
+}
+.section7 .top-content h2, .section7 .top-content p{
+    color: white;
+}
+form{
+    width: 70%;
+    height: 50vh;
+    /* border: 1px solid red; */
+    display: block;
+    margin: 0 auto;
+}
+textarea{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 20vh;
+    background-color: rgb(37, 37, 145);
+    border: none;
+}
+input{
+    width: 33%;
+    height: 5vh;
+    margin: 40px 20px 3px 92px;
+    background-color: rgb(37, 37, 145);
+    border: none;
+}
+.section7 button{
+    display: block;
+    margin: 20px auto;
+    width: 27%;
+    height: 5vh;
+    background-color: rgb(37, 37, 145);
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+footer{
+    display: block;
+    background-color: rgb(37, 37, 145);
+    margin-top: 40px;
+}
+.footer{
+    width: 70%;
+    display: block;
+    margin: 5px auto;
+    padding: 10px;
+}
+.footer li{
+    display: inline-block;
+    margin: 5px 30px;
+    margin-left: 30px;
+    color: white;
+}
+/* -------------------section7-----ends here----------- */
+
+
+@media (min-width:551px) and (max-width:900px){
+    .hamburger {
+        width: 50px;
+        height: 50px;
+        display: block; 
+        /* border: 1px solid red;  */
+        padding: 3px;
+        float: right;
+    }
+    .hamburger .hambar{
+        width: 30px;
+        height: 4px; 
+        background-color: white;
+        margin: 5px;
+    }
+    #navlist{
+        display: none;
+    }
+    .mid-content p{
+        font-size: 20px;
+    }
+    .mid-content button{
+        font-size: 15px;
+    }
+    /* --------section1-----ends here-------- */
+
+    .section2{
+        height: 120vh;
+    }
+    .top-content h2{
+        font-size: 18px;
+    }
+    .list {
+        margin-top: 1vh;
+    }
+    .list li{
+        width: 200px;
+        height: 150px;
+    }
+    .list li img{
+        width: 100px;
+        height: 100px;
+    }
+      /* --------section1-----ends here-------- */
+
+    .section3{
+        height: 140vh;
+    }
+    .section4{
+        height: 120vh;
+    }
+    .section4 .list li{
+        margin-top: 50px;
+    }
+    .section5{
+        height: 120vh;
+    }
+  /* --------section3, 4, 5-----ends here-------- */
+
+    .section6{
+        height: 150vh;
+    }
+    .section6 .list li h3 {
+        margin-top: 3px;
+    }
+    .section6 .top-content .list li h4 {
+        margin-top: 0px;
+    }
+    /* --------section6-----ends here-------- */
+
+    .section7{
+        height: 90vh;
+    }
+    input{
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+    }
+    button{
+        font-size: 10px;
+    }
+  /* --------section7-----ends here-------- */
+}
+
+
+
+@media (min-width:300px) and (max-width:550px){
+ 
+    .hamburger {
+        width: 50px;
+        height: 50px;
+        display: block; 
+        padding: 3px;
+        float: right;
+    }
+    .hamburger .hambar{
+        width: 30px;
+        height: 4px; 
+        background-color: white;
+        margin: 5px;
+    }
+    .mid-content{
+        margin-top: 9vh;
+    }
+ 
+    .logo img{
+        width: 80px;
+    }
+    #navlist{
+        display: none;
+    }
+    .mid-content p{
+        font-size: 16px;
+    }
+    p{
+        font-size: 8px;
+    }
+    span{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 16px;
+    }
+    .mid-content button{
+        font-size: 12px;
+    }
+    .list li{
+        width: 100%;
+        display: block;
+        margin: 4px auto;
+    }
+
+    .section1{
+        height: 50vh;
+    }
+    .section2{
+        height: 217vh;
+    }
+   .section3{
+        height: 260vh;
+    }
+
+    .section4{
+        height: 215vh;
+    }
+    .section4 .list li{
+       margin: 66px 0px;
+    }
+    .section4 .list li h1{
+        display: block;
+    }
+   
+    .section5{
+        height: 217vh;
+    }
+    .section5 .list li h3{
+        display: block;
+        margin: 2px auto;
+    }
+
+    .section6{
+        height: 280vh;
+    }
+    .section6 .list li{
+        height: 60vh;
+        padding-top: 0;
+    }
+    .section6 .list li img{
+        display: block;
+        margin: 5px auto;
+    }
+    .section6 .list li h3{
+       margin-top: 3px;
+    }
+
+
+
+    .section7{
+        height: auto;
+    }
+    input{
+        width: 95%;
+        display: block;
+        margin: 5px auto;
+    }
+    textarea{
+        width: 95%;
+    }
+    .section7 button{
+        font-size: 8px;
+        width: 40%;
+    }
+    form {
+        width: 90%;
+        height: 37vh;
+        display: block;
+        margin: 68px auto;
+    }
+    .footer{
+        width: 50%;
+        display: block;
+        margin: 4px auto;
+        text-align: center;
+    }
+    .footer li{
+        display: block;
+    }
+    /* --------section7-----ends here-------- */
+}
