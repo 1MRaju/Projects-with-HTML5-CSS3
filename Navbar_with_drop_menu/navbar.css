@@ -21,7 +21,7 @@
 }
 .menu_bar ul li a{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 .active, .menu_bar ul li:hover{
     background-color: rgb(33, 162, 201);
