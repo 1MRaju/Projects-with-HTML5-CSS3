@@ -1,0 +1,25 @@
+@keyframes shake {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(-5px);}
+    20% { transform: translateY(5px); }
+    30% { transform: translateY(-8px); }
+    40% { transform: translateX(9px); }
+    50% { transform: translateX(-10px);}
+    60% { transform: translateY(11px); }
+    70% { transform: translateY(-9px);}
+    80% { transform: translateX(7px); }
+    90% { transform: translateX(-5px);}
+    100% { transform: translateX(0);}
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: #007bff; */
+    background-color: lightseagreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    animation: shake 2s infinite;
+    font-weight: bolder; 
+  }
